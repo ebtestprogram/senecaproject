@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+	<meta charset="utf-8">
+	<title> Emilybeth's final project</title>
+	<meta name= "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--Bootstrap CSS-->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="C:\Users\emily\OneDrive\Documents\E-learning Developer\DEV103 HTML Course\css.stylesassignment.css">	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+</head>
+<body>
+<h1> Health and Fitness Guide</h1>
+<nav class="nav nav-pills nav-justified">
+  <a class="nav-link active" aria-current="page" href="https://www.foodnetwork.com/healthy/packages/healthy-every-week/healthy-mains/foodnetwork-most-saved-healthy-recipes">Recipes</a>
+  <a class="nav-link" href="https://www.forbes.com/sites/laurabegleybloom/2019/09/04/bucket-list-travel-the-top-50-places-in-the-world/?sh=5518ef20cfd1">Vacation Spots</a>
+  <a class="nav-link" href="https://www.verywellfit.com/fitness-motivation-4157145">Motivation</a>
+</nav>
+<p>&nbsp</p>
+<h2>Top five foods to eat on vacation</h2>
+<img src="C:\Users\emily\OneDrive\Documents\E-learning Developer\DEV103 HTML Course\assortment-different-fruits-berries-flat-260nw-1395910394.webp"
+alt="image of different kinds of fruit">
+<table class="table table-dark table-striped">
+<tr>
+<th>sweets</th>  
+	<td>ice cream</td>
+  	<td>brownies</td>
+</tr>
+<tr>
+ <th>meals</th>
+	<td>poutine</td>
+	<td>noodles</td>
+</tr>
+<tr>
+<th>drinks</th>
+	<td>beer</td>
+	<td>milkshakes</td>
+</tr>
+</table>
+<p>&nbsp</p>
+
+<h4>Top three tips to stay on track while on vacation</h4>
+<ul>
+<li> Stay hydrated</li>
+<li>Remain active</li>
+<li>Go for long walks</li>
+</ul>
+<p>&nbsp</p>
+<h4>Two steps to keep in mind when exercising on vacation </h4>
+<ol>
+<li> Pack workout clothes</li>
+<li>Make time for yourself</li>
+</ol>
+
+<p>&nbsp</p>
+<p>&nbsp</p>
+<div class="p-3 mb-2 bg-primary text-white">TODAY'S PLAN</div>
+<p>&nbsp</p>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      EAT
+    </div>
+    <div class="col order-5">
+      SLEEP
+    </div>
+    <div class="col order-1">
+      REPEAT
+    </div>
+  </div>
+</div>
+
+<p>This page is complete. If you click on the "Hide" button, this content will disappear</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+</body>
+</html>
